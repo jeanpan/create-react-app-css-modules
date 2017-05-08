@@ -144,7 +144,8 @@ module.exports = {
         include: paths.appSrc,
         loaders: [
           'style', 
-          'css?importLoaders=1&modules&localIdentName=[name]__[local]___[hash:base64:5]!postcss', 
+          'css?importLoaders=2&modules&localIdentName=[name]__[local]___[hash:base64:5]',
+          'postcss',
           'sass'
         ]
       },
