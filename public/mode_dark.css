@@ -1,0 +1,32 @@
+/* Set default font to all elements */
+* {
+  font-family: "Open Sans";
+}
+
+:root {
+
+  /* KaiOS Colors */
+  --color-gs100: #ffffff;
+  --color-gs90: #e1e1e1;
+  --color-gs70: #cbcbcb;
+  --color-gs55: #acacac;
+  --color-gs40: #8a8a8a;
+  --color-gs25: #646464;
+  --color-gs15: #242424;
+  --color-gs00: #000000;
+
+  --color-purple: #8500DB;
+  --color-blue: #3D5DFF;
+  --color-orange: #FF4C00;
+  --color-green: #00AF31;
+
+  --color-gradient-purple: linear-gradient(to right, #3722FF, #AB00C7);
+  --color-gradient-blue: linear-gradient(to right, #00A8FF, #6738EE);
+  --color-gradient-orange: linear-gradient(to right, #FFC410, #FF3701);
+  --color-gradient-green: linear-gradient(to right, #B3E601, #019A54);
+
+}
+
+.theme {
+  --highlight-color: var(--color-purple);
+}
